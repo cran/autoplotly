@@ -2,7 +2,7 @@ Package: autoplotly
 Type: Package
 Title: Automatic Generation of Interactive Visualizations for Popular
         Statistical Results
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("Yuan", "Tang", role = c("aut", "cre"), email = "terrytangyuan@gmail.com")
 Description: Functionalities to automatically generate interactive visualizations for popular
              statistical results supported by 'ggfortify', such as time series, PCA,
@@ -19,8 +19,8 @@ Imports: methods, ggplot2, plotly, ggfortify
 RoxygenNote: 6.0.1
 Suggests: testthat, knitr
 NeedsCompilation: no
-Packaged: 2018-01-10 14:45:51 UTC; terrytangyuan
+Packaged: 2018-02-11 17:18:22 UTC; terrytangyuan
 Author: Yuan Tang [aut, cre]
 Maintainer: Yuan Tang <terrytangyuan@gmail.com>
 Repository: CRAN
-Date/Publication: 2018-01-10 15:23:03 UTC
+Date/Publication: 2018-02-11 17:36:06 UTC
