@@ -1,3 +1,9 @@
+autoplotly v0.1.3
+---------------------
+
+* Added `rmarkdown` to `Suggests`.
+* Fixed CRAN check note on `LazyData`.
+
 autoplotly v0.1.2
 ---------------------
 

@@ -170,11 +170,11 @@ hr {
 
 <h2>Background</h2>
 
-<p>Often times users only want to quickly iterate the process of exploring data, building statistical models, and visualizing the model results, especially the models that focus on common tasks such as clustering and time series analysis. Some of these packages provide default visualizations for the data and models they generate. However, they look out-of-fashion and these components require additional transformation and clean-up before using them in <a href="http://ggplot2.tidyverse.org/">ggplot2</a> and each of those transformation steps must be replicated by others when they wish to produce similar charts in their analyses. Creating a central repository for common/popular transformations and default plotting idioms would reduce the amount of effort needed by all to create compelling, consistent and informative charts.</p>
+<p>Often times users only want to quickly iterate the process of exploring data, building statistical models, and visualizing the model results, especially the models that focus on common tasks such as clustering and time series analysis. Some of these packages provide default visualizations for the data and models they generate. However, they look out-of-fashion and these components require additional transformation and clean-up before using them in <a href="https://ggplot2.tidyverse.org/">ggplot2</a> and each of those transformation steps must be replicated by others when they wish to produce similar charts in their analyses. Creating a central repository for common/popular transformations and default plotting idioms would reduce the amount of effort needed by all to create compelling, consistent and informative charts.</p>
 
 <p>The <a href="https://CRAN.R-project.org/package=ggfortify">ggfortify package</a> provides a unified interface with one single <code>autoplot()</code> function for plotting many statistics and machine learning packages and functions in order to help these users achieve reproducibility goals with minimal effort. <code>ggfortify</code> package has a very easy-to-use and uniform programming interface that enables users to use one line of code to visualize statistical results of many popular R packages using <code>ggplot2</code> as building blocks. This helps statisticians, data scientists, and researchers avoid both repetitive work and the need to identify the correct <code>ggplot2</code> syntax to achieve what they need. Users are able to generate beautiful visualizations of their statistical results produced by popular packages with minimal effort.</p>
 
-<p>The <a href="https://github.com/terrytangyuan/autoplotly">autoplotly package</a> is an extension built on top of <code>ggplot2</code>, <a href="https://plot.ly/">plotly</a>, and <code>ggfortify</code> to provide functionalities to automatically generate interactive visualizations for many popular statistical results supported by <code>ggfortify</code> package in <code>plotly</code> and <code>ggplot2</code> styles. The generated visualizations can also be easily extended using <code>ggplot2</code> and <code>plotly</code> syntax while staying interactive.</p>
+<p>The <a href="https://github.com/terrytangyuan/autoplotly">autoplotly package</a> is an extension built on top of <code>ggplot2</code>, <a href="https://plotly.com/">plotly</a>, and <code>ggfortify</code> to provide functionalities to automatically generate interactive visualizations for many popular statistical results supported by <code>ggfortify</code> package in <code>plotly</code> and <code>ggplot2</code> styles. The generated visualizations can also be easily extended using <code>ggplot2</code> and <code>plotly</code> syntax while staying interactive.</p>
 
 <h2>Get Started</h2>
 
@@ -294,7 +294,7 @@ a simple <code>export()</code> function, for example:</p>
 <pre><code>plotly::plotly_json(p, jsonedit = FALSE)
 </code></pre>
 
-<p>and then use plotly&#39;s Javascript API <a href="https://plot.ly/javascript/">plotly.js</a> to extend further and embed in any website.</p>
+<p>and then use plotly&#39;s Javascript API <a href="https://plotly.com/javascript/">plotly.js</a> to extend further and embed in any website.</p>
 
 <h2>Future Development</h2>
 
