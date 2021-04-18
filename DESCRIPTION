@@ -2,7 +2,7 @@ Package: autoplotly
 Type: Package
 Title: Automatic Generation of Interactive Visualizations for
         Statistical Results
-Version: 0.1.3
+Version: 0.1.4
 Authors@R: person("Yuan", "Tang", role = c("aut", "cre"),
                   email = "terrytangyuan@gmail.com",
                   comment = c(ORCID = "0000-0001-5243-233X"))
@@ -19,10 +19,10 @@ Depends: R (>= 3.1)
 Imports: methods, ggplot2, plotly, ggfortify
 RoxygenNote: 7.0.2
 VignetteBuilder: knitr
-Suggests: testthat, knitr, rmarkdown
+Suggests: testthat, knitr, markdown
 NeedsCompilation: no
-Packaged: 2021-04-16 18:25:49 UTC; yuan.tang
+Packaged: 2021-04-18 02:05:06 UTC; yuan.tang
 Author: Yuan Tang [aut, cre] (<https://orcid.org/0000-0001-5243-233X>)
 Maintainer: Yuan Tang <terrytangyuan@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-04-16 18:40:07 UTC
+Date/Publication: 2021-04-18 06:50:11 UTC
